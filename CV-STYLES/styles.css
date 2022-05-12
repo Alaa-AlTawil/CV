@@ -1,16 +1,16 @@
 body{
     margin-left: 20%;
-    margin-right:20%;
-    
+    margin-right:20%;    
 }
 .maindiv{
     display: flex;
     flex-shrink: 0;
 }
-
 .left-side{
     background-color: rgb(1, 1, 104);
     flex: 1;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
     padding-top:40px;
     color: rgb(231, 215, 247);
@@ -24,6 +24,37 @@ body{
 }
 a{
     color:rgb(231, 215, 247);
+}
+.linkedin-icon{
+    border-radius: 5px;
+    height:30px;
+    ;
+}
+.linkedin-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.licon-div{
+    flex:1;
+}
+.link-div{
+    flex:1;
+}
+.phone-div{
+    display: flex;
+    align-items: center;
+}
+.phone-icon{
+    border-radius: 15px;
+    height:30px;    
+}
+.picon-div{
+    flex:1;
+}
+.phone-div{
+    flex:2;
+
 }
 .right-side{
     background-color: rgb(231, 215, 247);
